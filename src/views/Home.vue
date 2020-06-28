@@ -26,6 +26,9 @@ export default {
     SummaryModal,
     SurveyJSComp
   },
+  created () {
+    console.log('Home::created=> node env', process.env)
+  },
   data () {
     return {
       showModal: false
