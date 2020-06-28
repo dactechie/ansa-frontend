@@ -1,14 +1,15 @@
 
 // const account = "storageaccountansa9783";
 
-export const hostUri = process.env.VUE_APP_STORAGE_HOST
+export const hostUri = 'https://storageaccountansa9783.table.core.windows.net'
+// process.env.VUE_APP_STORAGE_HOST
 // "http://127.0.0.1:10002/devstoreaccount1/";// process.env.STORAGE_HOST_URI_MDS; //`https://${account}.table.core.windows.net`
 
 // const sasToken ="st=2020-06-09T21%3A20%3A39Z&se=2022-06-10T21%3A20%3A00Z&sp=raud&sv=2017-04-17&tn=mds&sig=%2B27UGXtiVVlw55koGiSBnZBFJDb7RjXF%2B0QUOz6vG5E%3D";
 // local "st=2020-06-09T21%3A20%3A39Z&se=2022-06-10T21%3A20%3A00Z&sp=raud&sv=2017-04-17&tn=mds&sig=%2B27UGXtiVVlw55koGiSBnZBFJDb7RjXF%2B0QUOz6vG5E%3D"
 // prod : "st=2020-05-27T02%3A16%3A34Z&se=2028-05-28T02%3A16%3A00Z&sp=rau&sv=2017-04-17&tn=mds&sig=fUwWf%2Fn6hNftjsDsAjCUkXNo5NxZKm2i2NmqYYWmvao%3D";
 // process.env.SAS_TOKEN_STORE_MDS
-export const sasToken = process.env.VUE_APP_SAS_TOKEN
+export const sasToken = 'st=2020-06-28T01%3A07%3A06Z&se=2024-06-29T01%3A07%3A00Z&sp=rau&sv=2017-04-17&tn=episode&sig=h5uwjxIidWkVVKXgYZtgIqxImncWnuDqdtfyKBpE3wE%3D'
 
 console.log('proess env', process.env)
 console.log('stopre host:', process.env.VUE_APP_STORAGE_HOST)
