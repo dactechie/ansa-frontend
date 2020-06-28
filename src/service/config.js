@@ -10,5 +10,8 @@ export const hostUri = process.env.VUE_APP_STORAGE_HOST
 // process.env.SAS_TOKEN_STORE_MDS
 export const sasToken = process.env.VUE_APP_SAS_TOKEN
 
+console.log('proess env', process.env)
+console.log('stopre host:', process.env.VUE_APP_STORAGE_HOST)
+
 // "st=2020-06-19T06%3A45%3A04Z&se=2020-06-20T06%3A45%3A04Z&sp=rau&sv=2017-04-17&tn=episode&sig=oRhiFsqpVSIZPoXrlLT84NDEsoTVtnUMPM0h%2F9kDCng%3D";
 // "st=2020-06-14T09%3A22%3A55Z&se=2024-06-15T09%3A22%3A00Z&sp=rau&sv=2017-04-17&tn=episode&sig=M6BbFodJ%2F0ChyxAhkpObtLZ26DIrFTlmWna5KnWtbes%3D";
