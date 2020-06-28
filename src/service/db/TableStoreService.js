@@ -1,7 +1,7 @@
 import { hostUri, sasToken } from '@/service/config'
 import { promisify, objectFlip } from '@/utils'
 import { DBSurveyFieldNameMapper as fieldMap, DBTypeFunctionMapper } from './mapper'
-import { TableQuery, createTableServiceWithSas } from '../azure-storage.table.min'
+import { TableQuery, createTableServiceWithSas } from '../azure-storage.table'
 
 export const tableService = createTableServiceWithSas(hostUri, sasToken)
 

@@ -1,4 +1,4 @@
-import { TableUtilities } from '../azure-storage.table.min'
+import { TableUtilities } from '../azure-storage.table'
 
 const entGen = TableUtilities.entityGenerator
 
