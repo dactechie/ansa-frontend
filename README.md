@@ -1,5 +1,9 @@
 # ansa-frontend
 
+
+[![Build status](https://dev.azure.com/DirectionsHealth/ANSAFrontend/_apis/build/status/ANSAFrontend-Node.js-Vue-App)](https://dev.azure.com/DirectionsHealth/ANSAFrontend/_build/latest?definitionId=2)
+
+
 ## Project setup
 ```
 npm install
