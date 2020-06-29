@@ -169,7 +169,7 @@
   padding-bottom: 1.875em; }
 
 .sv-paneldynamic {
-  min-width: 80%;
+  min-width: 100%;
 }
 
 .sv-paneldynamic__progress-container {
@@ -230,7 +230,7 @@
 
 .sv-paneldynamic .sv-panel ~ .sv-panel {
   padding-top: 2.5em;
-  min-width: 70%;
+  min-width: 100%;
 }
 
 .sv-paneldynamic__progress--top {
@@ -293,14 +293,16 @@
   padding-left: 0.55em;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: 1em; }
+  font-size: 1.1em; }
 
 .sv-question__input {
   width: 100%;
   height: 1.81em; }
 
 .sv-question__content {
-  margin-left: 0.55em; }
+  margin-left: 0.55em; 
+  font-size: 1.1em;
+}
 
 .sv-question__erbox {
   color: #d52901;
@@ -381,7 +383,7 @@
 
 .sv-question .sv-selectbase {
   margin-bottom: 4px; 
-  min-width: 70%;
+  min-width: 100%;
 }
 
 .sv-selectbase__item {
@@ -526,8 +528,8 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   border: solid 1px transparent;
   vertical-align: middle; }
 
@@ -537,8 +539,8 @@
   left: 50%;
   display: inline-block;
   box-sizing: border-box;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   margin-right: -50%;
   transform: translate(-50%, -50%); }
 
@@ -548,6 +550,7 @@
 
 .sv-item__control-label {
   margin-left: 0.4125em;
+  font-size: 1.1em;
   vertical-align: middle; }
 
 .sv-checkbox__decorator {

@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <div class="menu">
+    <!-- <div class="menu">
       <button id="show-modal" @click="showModal = true">Status/Overview</button>
-    </div>
+    </div> -->
 
     <transition name="fade">
       <SummaryModal v-if="showModal" @close="showModal = false">
@@ -28,6 +28,7 @@ export default {
   },
   created () {
     console.log('Home::created=> node env', process.env)
+    console.log('Home::created=> node env', process.env.VUE_APP_STORAGE_HOST)
   },
   data () {
     return {
